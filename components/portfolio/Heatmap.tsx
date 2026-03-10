@@ -98,8 +98,8 @@ export default function Heatmap({ handle }: { handle: string }) {
     <div className="w-full glass-panel rounded-xl p-6 border border-border/70 bg-background/90 shadow-sm mt-8">
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-4">
         <div>
-          <h3 className="font-display font-medium text-lg text-neutral-800 dark:text-neutral-200">Algorithmic Output</h3>
-          <p className="font-mono text-xs text-neutral-500 mt-1">Codeforces Activity Matrix</p>
+          <h3 className="font-display font-medium text-lg text-neutral-800 dark:text-neutral-200">Heatmap</h3>
+          <p className="font-mono text-xs text-neutral-500 mt-1">Codeforces Activity</p>
         </div>
         
         <div className="flex bg-neutral-100 dark:bg-neutral-900 rounded-lg p-1 border border-border/50">
