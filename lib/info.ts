@@ -117,12 +117,12 @@ export const socialLinks = [
     icon: Linkedin,
     handle: 'Harsh Boghani',
     label: 'Linkedin',
-    href: 'https://www.linkedin.com',
+    href: 'https://in.linkedin.com/in/HarshBoghani',
   },
   {
     icon: Mail,
-    handle: 'your.email@example.com',
+    handle: 'harshboghani775@gmail.com',
     label: 'Email',
-    href: 'mailto:your.email@example.com',
+    href: 'mailto:harshboghani775@gmail.com',
   }
 ];
