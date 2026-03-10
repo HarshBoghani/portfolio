@@ -1,0 +1,26 @@
+
+> rest-express@1.0.0 dev
+> NODE_ENV=development tsx server/index.ts
+
+[1G[0K5:48:52 PM [express] serving on port 5000
+[31m(!) Failed to run dependency scan. Skipping dependency pre-bundling. Error: [31m  Failed to scan for dependencies from entries:
+  /home/runner/workspace/client/index.html
+
+  [31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNo matching export in "shared/routes.ts" for import "insertMessageSchema"[0m
+
+    client/src/pages/Home.tsx:7:9:
+[37m      7 │ import { [32minsertMessageSchema[37m, type InsertMessage } from '@shared/ro...
+        ╵          [32m~~~~~~~~~~~~~~~~~~~[0m
+
+
+    at failureErrorWithLog (/home/runner/workspace/node_modules/vite/node_modules/esbuild/lib/main.js:1467:15)
+    at /home/runner/workspace/node_modules/vite/node_modules/esbuild/lib/main.js:926:25
+    at runOnEndCallbacks (/home/runner/workspace/node_modules/vite/node_modules/esbuild/lib/main.js:1307:45)
+    at buildResponseToResult (/home/runner/workspace/node_modules/vite/node_modules/esbuild/lib/main.js:924:7)
+    at /home/runner/workspace/node_modules/vite/node_modules/esbuild/lib/main.js:936:9
+    at new Promise (<anonymous>)
+    at requestCallbacks.on-end (/home/runner/workspace/node_modules/vite/node_modules/esbuild/lib/main.js:935:54)
+    at handleRequest (/home/runner/workspace/node_modules/vite/node_modules/esbuild/lib/main.js:628:17)
+    at handleIncomingPacket (/home/runner/workspace/node_modules/vite/node_modules/esbuild/lib/main.js:653:7)
+    at Socket.readFromStdout (/home/runner/workspace/node_modules/vite/node_modules/esbuild/lib/main.js:581:7)[39m
+[1G[0K⠙[1G[0K
