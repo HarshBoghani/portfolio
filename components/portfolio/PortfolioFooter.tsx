@@ -101,11 +101,11 @@ export default function PortfolioFooter() {
         </div>
         <div className="flex flex-wrap items-center gap-4">
           <LiveTime />
-          <span
+          {/* <span
             className="w-1 h-1 rounded-full bg-neutral-400 dark:bg-neutral-600 shrink-0"
             aria-hidden
-          />
-          <PageViews />
+          /> */}
+          {/* <PageViews /> */}
         </div>
       </div>
     </footer>
