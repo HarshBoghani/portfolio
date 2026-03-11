@@ -5,7 +5,7 @@ import { ExternalLink } from 'lucide-react';
 export default function PortfolioBlogs() {
   const blogs = [
     {
-      title: 'ALL ABOUT COMPETITIVE PROGRAMMING',
+      title: 'All About Competitive Programming',
       description: 'A comprehensive guide to competitive programming levels and topics on Codeforces, covering Pupil, Specialist, and Expert levels with hand-picked resources.',
       link: 'https://medium.com/@thrilled_bisque_gnu_255/all-about-competitive-programming-b8ee9e53d844',
       date: 'Dec 2, 2024',

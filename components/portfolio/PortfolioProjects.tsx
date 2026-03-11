@@ -7,7 +7,7 @@ export default function PortfolioProjects() {
     {
       title: 'C++ Trie Engine',
       description: 'A high-performance search engine built with C++ Trie data structure, featuring real-time autocomplete recommendations and fast file search capabilities.',
-      link: 'https://github.com/HarshBoghani/trie-search-engine', // assuming, or leave blank
+      link: 'https://github.com/HarshBoghani/trie-mini-search-engine', // assuming, or leave blank
     },
     {
       title: 'KronosDB: High-Performance C++ Key-Value Store',
@@ -17,14 +17,14 @@ export default function PortfolioProjects() {
     {
       title: 'Distributed Rate Limiter in C++',
       description: 'A high-performance, distributed rate limiter microservice built in C++ using gRPC, Redis, and atomic Lua scripts for Token Bucket algorithm.',
-      link: 'https://github.com/HarshBoghani/distributed-rate-limiter', // assuming
+      link: 'https://github.com/HarshBoghani/Limitron', // assuming
     },
   ];
 
   return (
     <section className="mb-16">
       <h2 className="text-lg font-semibold mb-4 text-neutral-800 dark:text-neutral-200">
-        projects
+        Projects
       </h2>
       <div className="space-y-6">
         {projects.map((project, index) => (

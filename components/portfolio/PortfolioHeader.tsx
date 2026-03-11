@@ -27,10 +27,10 @@ export default function PortfolioHeader() {
     <header className="flex justify-between items-start gap-8 mb-16">
       <div>
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-2 text-neutral-800 dark:text-neutral-200">
-          hi, harsh here
+          Hi, harsh here
         </h1>
         <p className="text-neutral-600 dark:text-neutral-400 text-lg mb-3">
-          computer engineer | competitive programmer
+          Computer Engineer | Competitive Programmer
         </p>
         <div className="flex flex-wrap items-center gap-3">
           <TooltipProvider delayDuration={0}>

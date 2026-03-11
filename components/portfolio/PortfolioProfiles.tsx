@@ -23,7 +23,7 @@ export default function PortfolioProfiles() {
   return (
     <section className="mb-16">
       <h2 className="text-lg font-semibold mb-4 text-neutral-800 dark:text-neutral-200">
-        profiles
+        Profiles
       </h2>
       <div className="space-y-4">
         {profiles.map((profile) => (

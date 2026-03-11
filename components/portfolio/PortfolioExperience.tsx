@@ -119,7 +119,7 @@ export default function PortfolioExperience() {
   return (
     <section className="mb-16">
       <h2 className="text-lg font-semibold mb-6 text-neutral-800 dark:text-white">
-        cool places i worked at
+        Cool places i worked at
       </h2>
 
       <ul className="space-y-0">
